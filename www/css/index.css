@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+#txt-email,
+#txt-password,
+#txt-username{
+    position: absolute;
+    left: 12%;
+    border-style: solid;
+    border-width: thin;
+    height: 1.5em;
+    opacity: 0.83;
+    border-radius: 5px;
+    font-size: 2em;
+}
+
+#txt-email{
+    top: 37%;
+}
+
+#txt-password{
+    top: 47%;
+    width: 9em;
+}
+
+#txt-username{
+    top: 40%;
+    display: none;
+    background-color: black;
+    color: white;
+}
+
+#img-show-password{
+    position: absolute;
+    height: 5em;
+    top: 45%;
+    left: 34%;
+    cursor: pointer;
+}
+
+input[type='checkbox']{
+    display: none;
+}
